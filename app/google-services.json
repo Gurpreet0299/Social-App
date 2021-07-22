@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788854097387",
+    "firebase_url": "https://wabot-a977f-default-rtdb.firebaseio.com",
+    "project_id": "wabot-a977f",
+    "storage_bucket": "wabot-a977f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788854097387:android:c95e7862a9fa9daaa505ae",
+        "android_client_info": {
+          "package_name": "com.example.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788854097387-bi2021j7gu6ejacicegsj6893qevdio4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialapp",
+            "certificate_hash": "ae6260f1d81a9e0cc87155fd069d9113c071a90b"
+          }
+        },
+        {
+          "client_id": "788854097387-onn0d0pugrh2duiakj7lr9gjsrsu6l7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVXuNGe7mANmDvoq3ExB8KUADJLOrkQJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788854097387-onn0d0pugrh2duiakj7lr9gjsrsu6l7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
