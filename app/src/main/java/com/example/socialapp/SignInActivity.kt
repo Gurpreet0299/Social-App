@@ -41,13 +41,11 @@ class SignInActivity : AppCompatActivity() {
             .requestEmail()
             .build()
 
-
         signInbtn.setOnClickListener {
             signIn()
         }
         googleSignInClient = GoogleSignIn.getClient(this, gso)
         auth = Firebase.auth
-
     }
 
     //after onCreate(),onStart() gets called so here we'll check if account is already signed in or not
@@ -68,7 +66,6 @@ class SignInActivity : AppCompatActivity() {
         if (requestCode == RC_SIGN_IN) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)
             handleSignInResult(task)
-
         }
     }
 //task will have account which you have used to log in In application
